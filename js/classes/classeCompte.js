@@ -1,5 +1,6 @@
 "use strict";
 
+
 class Compte {
 
   constructor(numero, solde) {
