@@ -20,8 +20,7 @@ class Client {
   afficherComptes() {
     
     for(let i = 0; i < this.nombersDeComptes.length; i++) {
-      console.log(`le compte numéro ${this.nombersDeComptes[i].numero}
-       est crédité de $${this.nombresDeComptes[i].solde}`);
+      this.nombresDeComptes[i].afficherCompte();
     }
   }
 
